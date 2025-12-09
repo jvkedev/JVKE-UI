@@ -20,7 +20,7 @@ const Tabs: React.FC<TabsProps> = ({ tabs }) => {
           <button
             key={index}
             onClick={() => setActiveTab(index)}
-            className={`relative px-4 py-2 text-sm font-medium transition-colors ${
+            className={`relative px-4 py-2 text-sm font-medium cursor-pointer transition-colors ${
               activeTab === index
                 ? "text-blue-600"
                 : "text-gray-600 hover:text-gray-800"
